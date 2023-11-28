@@ -1,6 +1,5 @@
 <template>
- 
-    <nav class="container-nav">
+    <nav :class="{ 'bg-transparent-css': isTop, 'bg-blur': !isTop }" class="container-nav">
         <div class="container-logo">
             <img class="w-24" src="../assets//logo.png" alt="">
             <div>
@@ -16,31 +15,55 @@
             <router-link class="links" to="/">Contacts</router-link>
         </div>
     </nav>
- 
 </template>
 
 <script>
 export default {
-  name: 'NavBar',
+    name: 'NavBar',
+
+    data() {
+        return {
+            isTop: true,
+        };
+    },
+    mounted() {
+        window.addEventListener('scroll', this.handleScroll);
+    },
+    destroyed() {
+        window.removeEventListener('scroll', this.handleScroll);
+    },
+    methods: {
+        handleScroll() {
+            this.isTop = window.scrollY === 0;
+        },
+    },
+
 }
 </script>
 
 <style scoped lang="scss">
-
 .container-nav {
-    @apply flex justify-between items-center bg-green-500 px-24 fixed z-10 w-full
+    @apply flex flex-col md:flex-row md:justify-between items-center px-24 py-6 md:py-0 fixed z-10 w-full transition-all duration-300 ease-in-out;
+}
+
+.bg-transparent-css {
+    @apply bg-transparent;
+}
+
+.bg-blur {
+    @apply backdrop-filter backdrop-blur-md;
+    background-color: rgba(0, 0, 0, 0.5); 
 }
 
 .container-logo {
-    @apply flex items-center
+    @apply flex items-center;
 }
 
 .container-links {
-    @apply flex gap-6
+    @apply flex gap-6;
 }
 
 .links {
-    @apply text-blue-900 hover:text-blue-700 text-xl font-bold
+    @apply text-blue-700 hover:text-blue-500 text-xl font-bold;
 }
-
 </style>

@@ -50,6 +50,9 @@
           </ul>
         </div>
       </div>
+      <div class="w-full text-center">
+        <label>&copy; 2023 <a href="https://www.instagram.com/pedroo0974/" class="underline text-blue-500 font-bold">Pedro Lucas</a>. Todos os direitos reservados.</label>
+      </div>
     </footer>
   </template>
   

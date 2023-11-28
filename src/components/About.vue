@@ -1,9 +1,9 @@
 <template>
-    <div class="flex flex-col items-center h-screen -mt-16">
+    <div class="flex flex-col items-center -mt-16">
       <h1 class="text-5xl text-blue-900 font-bold mb-2">About</h1>
       <div class="bg-cyan-700 w-40 h-0.5 mb-4"></div>
   
-      <div class="flex flex-col lg:flex-row w-full px-8 lg:px-24 items-center lg:justify-between mt-16">
+      <div class="flex flex-col lg:flex-row w-full px-8 lg:px-24 items-center lg:justify-between mt-16 mb-12">
         <div class="w-full text-lg font-bold">
           Bem-vindo à PetsLove Creche para Pets, onde o amor e a diversão se encontram! Na nossa creche, proporcionamos um ambiente acolhedor e seguro para o seu pet, oferecendo cuidados individualizados que vão além do convencional.
   
