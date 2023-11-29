@@ -22,7 +22,7 @@
   
         <!-- Coluna 2: Título e Links -->
         <div>
-          <h2 class="text-lg font-bold mb-4">Coluna 2</h2>
+          <h2 class="text-lg font-bold mb-4">Coluna</h2>
           <ul>
             <li><a href="#">Link 1</a></li>
             <li><a href="#">Link 2</a></li>
@@ -32,7 +32,7 @@
   
         <!-- Coluna 3: Título e Links -->
         <div>
-          <h2 class="text-lg font-bold mb-4">Coluna 3</h2>
+          <h2 class="text-lg font-bold mb-4">Coluna</h2>
           <ul>
             <li><a href="#">Link 1</a></li>
             <li><a href="#">Link 2</a></li>
@@ -42,7 +42,7 @@
   
         <!-- Coluna 4: Título e Links -->
         <div>
-          <h2 class="text-lg font-bold mb-4">Coluna 4</h2>
+          <h2 class="text-lg font-bold mb-4">Coluna</h2>
           <ul>
             <li><a href="#">Link 1</a></li>
             <li><a href="#">Link 2</a></li>
@@ -51,7 +51,7 @@
         </div>
       </div>
       <div class="w-full text-center">
-        <label>&copy; 2023 <a href="https://www.instagram.com/pedroo0974/" class="underline text-blue-500 font-bold">Pedro Lucas</a>. Todos os direitos reservados.</label>
+        <label>&copy; 2023  <a href="https://www.instagram.com/victoor_amooriim/" class="underline text-blue-500 font-bold">Victor Amorim</a> & <a href="https://www.instagram.com/pedroo0974/" class="underline text-blue-500 font-bold">Pedro Lucas</a>. Todos os direitos reservados.</label>
       </div>
     </footer>
   </template>
