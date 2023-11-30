@@ -33,7 +33,9 @@
       return {
         lista_imagens: [
           require('../assets/cao-esportivo-se-apresentando-durante-a-isca-percorrendo-a-competicao.jpg'),
-          require('../assets/gato-brincadeira-petlove.webp'),
+          require('../assets/pexels-gili-pup-10961354.jpg'),
+          require('../assets/pexels-pixabay-264005.jpg'),
+          require('../assets/pexels-goochie-poochie-grooming-19145878.jpg'),
           require('../assets/shiba-inu-cachorro-dando-um-passeio.jpg')
         ],
         imagemAtual: 0,
