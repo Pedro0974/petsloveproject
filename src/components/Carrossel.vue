@@ -1,5 +1,5 @@
 <template>
-    <div class="flex h-screen overflow-hidden">
+    <div id="home" class="flex h-screen overflow-hidden">
       <!-- Carrossel -->
       <div class="w-full">
         <div
@@ -10,7 +10,7 @@
             'opacity-0': index !== imagemAtual,
             'absolute top-0 left-0 transition-opacity duration-500 ease-in-out': true
           }"
-          class="w-full h-[80%] object-cover"
+          class="w-full h-[90%] object-cover"
         >
           <img :src="imagem" alt="Imagem" class="w-full h-full object-cover">
           <div class="bg-black/30 absolute w-full h-full top-0"></div>
